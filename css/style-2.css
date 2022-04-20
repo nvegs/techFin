@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap");
 body {
   font-family: "Space Grotesk", sans-serif;
   font-size: 14px;
   font-style: normal;
+  color: rgb(199, 196, 196);
 }

@@ -544,6 +544,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5rem;
 }
 
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -552,6 +557,31 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .mb-24 {
@@ -608,6 +638,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[719px\] {
   height: 719px;
+}
+
+.h-\[54px\] {
+  height: 54px;
 }
 
 .w-full {
@@ -674,8 +708,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 683px;
 }
 
-.w-\[363px\] {
-  width: 363px;
+.w-\[383px\] {
+  width: 383px;
+}
+
+.w-\[338px\] {
+  width: 338px;
+}
+
+.w-\[1163\.69px\] {
+  width: 1163.69px;
+}
+
+.w-\[1098px\] {
+  width: 1098px;
+}
+
+.w-\[193px\] {
+  width: 193px;
+}
+
+.w-\[240px\] {
+  width: 240px;
+}
+
+.w-\[52px\] {
+  width: 52px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[188px\] {
+  width: 188px;
 }
 
 .list-none {
@@ -706,6 +772,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   align-items: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -716,6 +786,58 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-24 {
+  gap: 6rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-y-11 {
+  row-gap: 2.75rem;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-11 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.75rem * var(--tw-space-y-reverse));
+}
+
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .self-center {
@@ -734,6 +856,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -746,6 +873,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-\[\#5E55FF\] {
   --tw-border-opacity: 1;
   border-color: rgb(94 85 255 / var(--tw-border-opacity));
+}
+
+.border-indigo-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(79 70 229 / var(--tw-border-opacity));
+}
+
+.border-sky-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 249 255 / var(--tw-border-opacity));
+}
+
+.border-sky-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(224 242 254 / var(--tw-border-opacity));
 }
 
 .bg-\[\#000000\] {
@@ -773,6 +915,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(30 31 33 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#6D6D6D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(109 109 109 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#171717\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -788,16 +940,89 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-56 {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
 .pt-7 {
   padding-top: 1.75rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-\[14px\] {
@@ -814,9 +1039,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-\[55px\] {
+  font-size: 55px;
 }
 
 .font-medium {
@@ -839,8 +1068,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 51px;
 }
 
+.leading-\[70px\] {
+  line-height: 70px;
+}
+
 .leading-4 {
   line-height: 1rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[18\] {
+  line-height: 18;
+}
+
+.leading-\[18em\] {
+  line-height: 18em;
+}
+
+.leading-\[18p\] {
+  line-height: 18p;
 }
 
 .text-sky-50 {
