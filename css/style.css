@@ -2,3 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Directives */
+/* @layer base{
+    p{
+        @apply font-normal bg-blue-400;
+    }
+} */ 
+
+
+/* @layer components{
+    .btn-blue{
+        @apply bg-sky-300 text-sky-200 py-4
+    }
+} */
+
+
+/* @layer utilities{
+    .p-21{
+        padding: 5.5rem;
+    }
+
+    @variants hover, focus{
+        .p-21{
+            padding: none;
+        }
+    }
+
+    @responsive{
+
+    }
+} */
