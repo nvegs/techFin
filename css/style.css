@@ -4,10 +4,10 @@
 
 /* Directives */
 /* @layer base{
-    p{
+    ul{
         @apply font-normal bg-blue-400;
     }
-} */ 
+}  */
 
 
 /* @layer components{
