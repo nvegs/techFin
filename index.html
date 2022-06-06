@@ -7,6 +7,22 @@
     <title>Topskills Assignment 2</title>
     <link rel="stylesheet" type="text/css" href="./build/tailwind.css" />
     <link rel="stylesheet" type="text/css" href="./css/style-2.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      const Menu = (e) => {
+        let list = document.querySelector('ul');
+
+        if(e.name === "menu-outline"){
+          e.name = 'close-outline';
+          list.classList.add('top-[80px]'), list.classList.add('opacity-100');
+
+        }else{
+          e.name = 'menu-outline';
+          list.classList.remove('top-[80px]'), list.classList.remove('opacity-100');
+        }
+      }
+    </script>
   </head>
 
   <body class="bg-[#000000]">
@@ -14,58 +30,72 @@
     <div class="container w-full">
 
       <!-- Navigation Done -->
-      <div class="flex lg:flex-row flex-col justify-between place-content-center py-4 text-sky-50">
-        <div class="logo self-center mx-auto py-4">
-          <img src="./img/EDH-White 1.png" alt="logo" class="px-2" />
-        </div>
+      <nav class="md:flex md:items-center md:justify-between shadow bg-slate-900 p-5 text-sky-50">
+        <div class="flex justify-between items-center">
+          <span class="cursor-pointer">
+            <img src="./img/EDH-White 1.png" alt="logo" class="h-10 inline" />
+          </span>
 
-        <div class="self-center mx-auto py-3">
+          <span class="text-4xl cursor-pointer md:hidden block mx-2">
+            <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+  
+        <div class="mx-4 my-6 md:my-0 hidden md:inline">
           <a href="">Sign up and get 20% Bonus on Referrals</a>
         </div>
+  
+        <ul class="md:flex items-center z-[1] md:z-auto md:static absolute bg-slate-900 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <div class="mx-4 my-6 md:my-0 md:hidden">
+            <a href="">Sign up and get 20% Bonus on Referrals</a>
+          </div>
 
-        <div class="flex flex-row self-center gap-8 mx-auto py-2">
-          <a href="#" class="self-center">Login</a>
-          <button class="w-[132px] h-[41px] bg-[#26262B] rounded-2xl">
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#">Login</a>
+          </li>
+          <button class="py-2 px-6 duration-500 hover:bg-sky-50 hover:text-slate-900 font-bold bg-[#26262B] rounded-2xl mx-4 my-4 md:my-0">
             GET THE APP
           </button>
-        </div>
-      </div>
+        </ul>
+      </nav>
 
 
       <!-- banner Done -->
-      <div class="flex md:flex-row flex-col-reverse mx-auto max-w-7xl mt-28 justify-between  text-sky-50 ">
-        <div class="p-8 mx-auto">
-          <div class="flex gap-4 py-8">
-            <button class="w-[132px] h-[41px] bg-[#26262B] rounded-full border border-[#6D6D6D] text-center">
-              NEW UPDATE
-            </button>
-
-            <h1 class="text-sky-50 self-center">
-              Introducing wallets but for ACH
-            </h1>
-          </div>
-
-          <p class="md:text-7xl text-4xl font-black leading-snug">
-            ACH E-wallet in <br class="hidden lg:inline"> your pockets 🤑
-          </p>
-
-          <p class="text-justify leading-6 py-4 font-medium my-3">
-            Just set it and forget it—no more worrying about getting
-            payments late <br class="hidden lg:inline"> We process transactions in 3x108 m/s.
-          </p>
-
-          <div class="flex gap-8 py-8">
-            <button class="font-medium bg-[#26262B] rounded-full leading-2 w-[175px] h-[57px] my-2">
-              😊 GET OUR APP
-            </button>
-            <p class="self-center text-[#6D6D6D]">See how it works</p>
+      <div class="flex md:flex-row flex-col-reverse mx-auto max-w-7xl mt-28 md:justify-between text-sky-50">
+        <div class="flex items-center mx-auto p-2">
+          <div class="">
+            <div class="flex gap-4 py-8">
+              <button class="w-[132px] h-[41px] bg-[#26262B] rounded-full border border-[#6D6D6D] text-center">
+                NEW UPDATE
+              </button>
+  
+              <h1 class="text-sky-50 self-center">
+                Introducing wallets but for ACH
+              </h1>
+            </div>
+  
+            <p class="md:text-7xl text-5xl font-black leading-snug">
+              ACH E-wallet in <br class="hidden lg:inline"> your pockets 🤑
+            </p>
+  
+            <p class="text-justify leading-6 py-4 font-medium my-3">
+              Just set it and forget it—no more worrying about getting
+              payments late <br class="hidden lg:inline"> We process transactions in 3x108 m/s.
+            </p>
+  
+            <div class="flex gap-8 py-8">
+              <button class="font-medium bg-[#26262B] rounded-full leading-2 w-[175px] h-[57px] my-2">
+                😊 GET OUR APP
+              </button>
+              <p class="self-center text-[#6D6D6D]">See how it works</p>
+            </div>
           </div>
 
         </div>
 
-          <div class="mx-auto">
-            <img src="./img/image_1.png" class="lg:h-[36rem]" alt="pc" />
-          </div>
+        <div class="mx-auto">
+          <img src="./img/image_1.png" class="lg:h-[36rem]" alt="pc" />
+        </div>
       </div>
      
 

@@ -6,9 +6,9 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.0.23"
-  }, 
+  },
   "scripts": {
     "start": "nodemon app.js",
-    "dev" : "npx tailwindcss -i ./css/style.css -o ./build/tailwind.css --watch"
+    "dev": "npx tailwindcss -i ./css/style.css -o ./build/tailwind.css --watch"
   }
 }
